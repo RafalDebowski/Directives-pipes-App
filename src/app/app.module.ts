@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChangeTextDirective } from './directive/change-text.directive';
+import { SnakeCasePipe } from './pipe/snake-case.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChangeTextDirective,
+    SnakeCasePipe
   ],
   imports: [
     BrowserModule,
